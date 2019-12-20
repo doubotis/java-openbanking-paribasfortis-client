@@ -1,0 +1,14 @@
+apply plugin: 'java'
+apply plugin: 'jacoco'
+apply plugin: 'maven'
+
+repositories {
+    jcenter()
+}
+
+dependencies {
+    testCompile 'junit:junit:4.12'
+    compile group: 'com.squareup.okhttp3', name: 'okhttp', version: '3.2.0'
+    compile group: 'org.json', name: 'json', version: '20190722'
+    testImplementation 'junit:junit:4.12'
+}
