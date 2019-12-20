@@ -14,6 +14,7 @@ Set the parameters needed :
 - Client Secret
 - Organization ID
 - Redirect URI
+
 You can get them from the developer website (linked above).
 
 The client is able to obtain a new token when the old is deprecated.
